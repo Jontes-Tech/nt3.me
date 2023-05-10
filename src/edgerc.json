@@ -1,0 +1,23 @@
+{
+    "app_id": "178925382399954944",
+    "config": {
+        "redirects": [
+            {
+                "pattern": "^/wake(inator)?$",
+                "destination": "https://wakinator.jontes.page"
+            },
+            {
+                "pattern": "^/page$",
+                "destination": "https://jontes.page"
+            },
+            {
+                "pattern": "^/blog$",
+                "destination": "https://blog.jontes.page"
+            },
+            {
+                "pattern": "^/floopr$",
+                "destination": "https://floopr"
+            }
+        ]
+    }
+}

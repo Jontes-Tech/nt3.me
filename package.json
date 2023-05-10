@@ -1,0 +1,10 @@
+{
+  "name": "nt3.me",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "tailwindcss build src/input.css -o dist/output.css; cp src/index.html dist/index.html; cp src/edgerc.json dist/edgerc.json; cp src/v3x.webp dist/v3x.webp"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}
