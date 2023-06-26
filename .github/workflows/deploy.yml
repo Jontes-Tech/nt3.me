@@ -13,11 +13,11 @@ jobs:
         with:
             submodules: true
             fetch-depth: 0
-      - uses: pnpm/action-setup@2.2.4
+      - uses: pnpm/action-setup@v3
         name: Install pnpm
         id: pnpm-install
         with:
-          version: 7
+          version: 8.6.2
       - name: Build
         run: pnpm build
       - name: Edgeserver Upload
