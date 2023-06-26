@@ -18,6 +18,8 @@ jobs:
         id: pnpm-install
         with:
           version: 8.6.2
+      - name: Install
+        run: pnpm install
       - name: Build
         run: pnpm build
       - name: Edgeserver Upload
