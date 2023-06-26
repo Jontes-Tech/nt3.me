@@ -1,10 +1,24 @@
 {
   "name": "nt3.me",
-  "version": "1.0.0",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
   "scripts": {
-    "build": "tailwindcss build src/input.css -o dist/output.css; cp src/index.html dist/index.html; cp src/edgerc.json dist/edgerc.json; cp src/v3x.webp dist/v3x.webp"
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@clerk/clerk-react": "^4.20.5",
+    "@clerk/themes": "^1.7.5",
+    "preact": "^10.13.2"
   },
   "devDependencies": {
-    "tailwindcss": "^3.3.2"
+    "@preact/preset-vite": "^2.5.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.24",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.9"
   }
 }
