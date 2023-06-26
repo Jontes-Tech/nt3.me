@@ -11,8 +11,7 @@ import {
 
 import { dark } from "@clerk/themes";
 
-const publishableKey =
-  "pk_test_ZHluYW1pYy1tYWdnb3QtMjkuY2xlcmsuYWNjb3VudHMuZGV2JA";
+const publishableKey = import.meta.env.VITE_CLERK_PUBLISHABLE_KEY;
 
 export function App() {
   return (
